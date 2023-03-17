@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encapsulation", "Encapsulat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor", "Constructor\Constructor.csproj", "{B8C9680D-6974-4C71-AAB1-5F3A2A2A516A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Destructor", "Destructor\Destructor.csproj", "{BDD94A97-BEC1-4093-8D90-3049F6FE159F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Destructor", "Destructor\Destructor.csproj", "{BDD94A97-BEC1-4093-8D90-3049F6FE159F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticConstructor", "StaticConstructor\StaticConstructor.csproj", "{5926A530-2401-4680-ADEF-4C9739E89DA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{BDD94A97-BEC1-4093-8D90-3049F6FE159F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDD94A97-BEC1-4093-8D90-3049F6FE159F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDD94A97-BEC1-4093-8D90-3049F6FE159F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5926A530-2401-4680-ADEF-4C9739E89DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5926A530-2401-4680-ADEF-4C9739E89DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5926A530-2401-4680-ADEF-4C9739E89DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5926A530-2401-4680-ADEF-4C9739E89DA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
