@@ -1,6 +1,7 @@
 ﻿// Bir sınıfın miras vermesini veya miras alınmasını engelleyen keeyword'dür
 // Sadece sınıflarda ve sadece override edilmiş metotlarda kullanılabilir.
 
+// isim değişikliği
 Yazilimci yazilimci = new Yazilimci();
 yazilimci.A(); // sealed kullandığı için muhabeseci yazacak
 
