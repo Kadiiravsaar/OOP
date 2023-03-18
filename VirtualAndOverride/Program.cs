@@ -36,7 +36,7 @@ class Kalem : Madde
 }
 #endregion
 #region Örnek 2
-
+ 
 class Sekil
 {
     public int _boy; // Protected de denebilirdi bu ve bundan miras alan sınıflar için. Alt satırda örnek verdim
