@@ -13,9 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor", "Constructor\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Destructor", "Destructor\Destructor.csproj", "{BDD94A97-BEC1-4093-8D90-3049F6FE159F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticConstructor", "StaticConstructor\StaticConstructor.csproj", "{5926A530-2401-4680-ADEF-4C9739E89DA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticConstructor", "StaticConstructor\StaticConstructor.csproj", "{5926A530-2401-4680-ADEF-4C9739E89DA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance(Kalitim)", "Inheritance(Kalitim)\Inheritance(Kalitim).csproj", "{CC2CC02F-D3C5-4146-B56E-3511DAD91967}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance(Kalitim)", "Inheritance(Kalitim)\Inheritance(Kalitim).csproj", "{CC2CC02F-D3C5-4146-B56E-3511DAD91967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualAndOverride", "VirtualAndOverride\VirtualAndOverride.csproj", "{CD4EE154-33B3-414B-929A-92E08370B0C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{010D311B-8F70-459D-8495-55EAE73C412B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism2", "Polymorphism2\Polymorphism2.csproj", "{FEA081C3-C96D-46E5-B7D3-6E599A83E4E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SealedKeyword", "SealedKeyword\SealedKeyword.csproj", "{8D52B09F-ADBC-46AC-A0AE-19B6D4686A43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,22 @@ Global
 		{CC2CC02F-D3C5-4146-B56E-3511DAD91967}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC2CC02F-D3C5-4146-B56E-3511DAD91967}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC2CC02F-D3C5-4146-B56E-3511DAD91967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4EE154-33B3-414B-929A-92E08370B0C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4EE154-33B3-414B-929A-92E08370B0C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4EE154-33B3-414B-929A-92E08370B0C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4EE154-33B3-414B-929A-92E08370B0C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{010D311B-8F70-459D-8495-55EAE73C412B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010D311B-8F70-459D-8495-55EAE73C412B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010D311B-8F70-459D-8495-55EAE73C412B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010D311B-8F70-459D-8495-55EAE73C412B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEA081C3-C96D-46E5-B7D3-6E599A83E4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA081C3-C96D-46E5-B7D3-6E599A83E4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA081C3-C96D-46E5-B7D3-6E599A83E4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA081C3-C96D-46E5-B7D3-6E599A83E4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D52B09F-ADBC-46AC-A0AE-19B6D4686A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D52B09F-ADBC-46AC-A0AE-19B6D4686A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D52B09F-ADBC-46AC-A0AE-19B6D4686A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D52B09F-ADBC-46AC-A0AE-19B6D4686A43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
