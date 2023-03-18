@@ -7,7 +7,7 @@ arac2.Calistir();// Taksi Çalıştı
 
 
 // Dinamik polimorfizm
-
+ 
 class Arac
 {
     virtual public void Calistir()
