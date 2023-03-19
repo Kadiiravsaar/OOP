@@ -17,13 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticConstructor", "Static
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance(Kalitim)", "Inheritance(Kalitim)\Inheritance(Kalitim).csproj", "{CC2CC02F-D3C5-4146-B56E-3511DAD91967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualAndOverride", "VirtualAndOverride\VirtualAndOverride.csproj", "{CD4EE154-33B3-414B-929A-92E08370B0C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualAndOverride", "VirtualAndOverride\VirtualAndOverride.csproj", "{CD4EE154-33B3-414B-929A-92E08370B0C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{010D311B-8F70-459D-8495-55EAE73C412B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{010D311B-8F70-459D-8495-55EAE73C412B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism2", "Polymorphism2\Polymorphism2.csproj", "{FEA081C3-C96D-46E5-B7D3-6E599A83E4E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism2", "Polymorphism2\Polymorphism2.csproj", "{FEA081C3-C96D-46E5-B7D3-6E599A83E4E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SealedKeyword", "SealedKeyword\SealedKeyword.csproj", "{8D52B09F-ADBC-46AC-A0AE-19B6D4686A43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SealedKeyword", "SealedKeyword\SealedKeyword.csproj", "{8D52B09F-ADBC-46AC-A0AE-19B6D4686A43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisBaseReadonly", "ThisBaseReadonly\ThisBaseReadonly.csproj", "{4BF741F2-253E-41AF-8AEA-2531DDCF779D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{8D52B09F-ADBC-46AC-A0AE-19B6D4686A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D52B09F-ADBC-46AC-A0AE-19B6D4686A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D52B09F-ADBC-46AC-A0AE-19B6D4686A43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF741F2-253E-41AF-8AEA-2531DDCF779D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF741F2-253E-41AF-8AEA-2531DDCF779D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF741F2-253E-41AF-8AEA-2531DDCF779D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF741F2-253E-41AF-8AEA-2531DDCF779D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
