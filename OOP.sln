@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism2", "Polymorphi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SealedKeyword", "SealedKeyword\SealedKeyword.csproj", "{8D52B09F-ADBC-46AC-A0AE-19B6D4686A43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisBaseReadonly", "ThisBaseReadonly\ThisBaseReadonly.csproj", "{4BF741F2-253E-41AF-8AEA-2531DDCF779D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThisBaseReadonly", "ThisBaseReadonly\ThisBaseReadonly.csproj", "{4BF741F2-253E-41AF-8AEA-2531DDCF779D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{DE724BF7-59CB-4E90-9C4F-0310B4CBF90D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{4BF741F2-253E-41AF-8AEA-2531DDCF779D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BF741F2-253E-41AF-8AEA-2531DDCF779D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BF741F2-253E-41AF-8AEA-2531DDCF779D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE724BF7-59CB-4E90-9C4F-0310B4CBF90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE724BF7-59CB-4E90-9C4F-0310B4CBF90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE724BF7-59CB-4E90-9C4F-0310B4CBF90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE724BF7-59CB-4E90-9C4F-0310B4CBF90D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
