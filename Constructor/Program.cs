@@ -1,7 +1,8 @@
 ﻿// Nesne oluşturulurken, ilk ayağa kalkarken gerekli ayarlamaları yaptığımız yer.
 
 //new MyClassConstructor("keke");
-new MyClassCtorThis(5);
+//new MyClassCtorThis(5);
+new MyClassCtorThis(5,7);
 
 class MyClassConstructor
 {
@@ -30,10 +31,13 @@ class MyClassCtorThis
     public MyClassCtorThis(int a) : this() 
     {
         Console.WriteLine("2. Constructor: " + a);
+        Console.WriteLine("bu ctor tetiklenmeden çnce bi üstteki tetiklenecek çünki tthis var");
+
     }
     public MyClassCtorThis(int a, int b) : this(a)
     {
-        Console.WriteLine("3. Constructor: " + a,b);
+        Console.WriteLine($"3. Constructor: a = {a} , b = {b}" );
+        Console.WriteLine("bu ctor tetiklenmeden çnce bi üstteki tetiklenecek çünki tthis var");
     }
 
 
