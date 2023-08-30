@@ -12,7 +12,7 @@
 // Uygulama da gereksiz olan nesneleri toplamak için devreye girer.
 // GC c# da ne zaman iş göreceği tahmin edilemez. Yazılımcıların bu mekanizmaya müdahale etmesi önerilmez
 
-
+ new MyClassDestructor();
 
 static void X()
 {
@@ -36,6 +36,10 @@ class MyClassDestructor
 		Console.WriteLine("Nesne imha ediliyor. Son nefes");
 	}
 
+    // Deconstruct =>
+	// Bir sınıf içerisinde “Deconstruct” ismiyle tanımlanan metot,
+	// compiler tarafından özel olarak algılanmakta
+	// ve sınıfın nesnesi üzerinden geriye hızlıca Tuple tipte bir değer döndürmemizi sağlamaktadır.
 
 
 }
