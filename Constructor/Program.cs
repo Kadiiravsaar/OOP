@@ -34,7 +34,7 @@ class MyClassCtorThis
         Console.WriteLine("bu ctor tetiklenmeden çnce bi üstteki tetiklenecek çünki tthis var");
 
     }
-    public MyClassCtorThis(int a, int b) : this(a)
+    public MyClassCtorThis(int a, int b) : this(a) // this (17) dersem üstteki ctora 17 yazacak
     {
         Console.WriteLine($"3. Constructor: a = {a} , b = {b}" );
         Console.WriteLine("bu ctor tetiklenmeden çnce bi üstteki tetiklenecek çünki tthis var");
